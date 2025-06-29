@@ -1,3 +1,4 @@
+# Centos 7
 wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64.tar.gz<br>
 tar -xvzf hellminer_linux64.tar.gz<br>
 chmod +x hellminer<br>
