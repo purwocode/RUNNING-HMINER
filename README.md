@@ -10,3 +10,10 @@ cd build/
 ../configure --prefix=/opt/local/glibc-2.25/<br>
 make -j8<br>
 make install<br>
+
+# UBUNTU
+apt install -y libsodium-dev tar wget<br>
+wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64.tar.gz<br>
+tar -xvzf hellminer_linux64.tar.gz<br>
+chmod +x hellminer<br>
+./hellminer -c stratum+tcp://ap.luckpool.net:3956 -u WALLET.peler1 -p x --cpu 4<br>
