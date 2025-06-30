@@ -13,6 +13,6 @@ make install<br>
 
 # UBUNTU
 apt install -y libsodium-dev tar wget<br>
-wget https://github.com/Oink70/ccminer-verus/releases/download/v3.8.3a-CPU/ccminer-v3.8.3a-oink_Ubuntu_18.04 -O ccminer
-chmod +x ccminer
-./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u RU3h5YB4RBeozgUzV7rocg1A7pfUUiRXXt -p x -t 0
+wget https://github.com/Oink70/ccminer-verus/releases/download/v3.8.3a-CPU/ccminer-v3.8.3a-oink_Ubuntu_18.04 -O ccminer<br>
+chmod +x ccminer<br>
+./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u RU3h5YB4RBeozgUzV7rocg1A7pfUUiRXXt -p x -t 0<br>
