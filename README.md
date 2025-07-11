@@ -18,6 +18,7 @@ sudo apt install -y libomp5 libomp-dev<br>
 git clone https://github.com/Oink70/ccminer-verus.git<br>
 cd ccminer-verus<br>
 chmod +x build.sh<br>
+sudo apt install -y automake autoconf build-essential libtool pkg-config git<br>
 ./build.sh<br>
 wget https://github.com/Oink70/ccminer-verus/releases/download/v3.8.3a-CPU/ccminer-v3.8.3a-oink_Ubuntu_18.04 -O ccminer
 chmod +x ccminer
