@@ -1,8 +1,12 @@
-# Centos 7
-wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64.tar.gz<br>
-tar -xvzf hellminer_linux64.tar.gz<br>
-chmod +x hellminer<br>
-wget https://ftp.gnu.org/gnu/glibc/glibc-2.25.tar.gz<br>
+# Centos 
+sudo yum install epel-release -y
+<br>
+sudo yum install debootstrap -y
+<br>
+sudo mkdir /opt/ubuntu-chroot
+<br>
+sudo debootstrap --arch=amd64 jammy /opt/ubuntu-chroot http://archive.ubuntu.com/ubuntu
+<br>
 tar -xvzf glibc-2.25.tar.gz<br>
 cd glibc-2.25/<br>
 mkdir build<br>
